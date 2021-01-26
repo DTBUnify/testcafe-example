@@ -1,0 +1,14 @@
+{
+  "name": "testcafe-example",
+  "version": "1.0.0",
+  "description": "TestCafe Example Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx testcafe \"firefox\" tests/*.test.js --skip-js-errors"
+  },
+  "author": "DeeperThanBlue",
+  "license": "MIT",
+  "dependencies": {
+    "testcafe": "^1.9.4"
+  }
+}
